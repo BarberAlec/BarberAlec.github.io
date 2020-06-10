@@ -1,3 +1,6 @@
+## About Me
+My ![CV](pdf/Alec_Barber_CV.pdf).
+
 ## Projects and Research
 
 [![BTL](images/btl.png?raw=true)](/btl)
