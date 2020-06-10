@@ -29,7 +29,7 @@ My [CV](pdf/Alec_Barber_CV.pdf).
 ---
 
 ## Interesting Articles and Resources
-[Connected Papers, Great for Research](https://www.connectedpapers.com/)
+[Graphing Papers, Great for Research](https://www.connectedpapers.com/)
 
 
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">here</a>.</p>
