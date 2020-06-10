@@ -1,21 +1,16 @@
-## College Projects
+## Personal and College Projects
 
 ---
 
-<!--### Category Name 1 -->
-
-[Project 1 Title](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[![BTL](images/btl.png?raw=true)](http://example.net/)
 
 ---
-<!--[Othello Game Playing Analysis](/pdf/sample_presentation.pdf)
-<img src="images/othello.png?raw=true"/>-->
+
 [![Othello](images/Othello.png?raw=true)](http://example.net/)
 
-
 ---
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+
+[![Othello](images/Othello.png?raw=true)](http://example.net/)
 
 ---
 
