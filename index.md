@@ -10,7 +10,7 @@
 ---
 <!--[Othello Game Playing Analysis](/pdf/sample_presentation.pdf)
 <img src="images/othello.png?raw=true"/>-->
-[![Othello](images/othello.png?raw=true)](http://example.net/)
+[![Othello](images/Othello.png?raw=true)](http://example.net/)
 
 
 ---
