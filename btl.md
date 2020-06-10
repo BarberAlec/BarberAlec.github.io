@@ -6,3 +6,4 @@ This research looks at the case of transfer learning in a Bayesian setting. Baye
 
 ## Background Techniques
 ### Distributed Opinion Pooling
+A mechanism for merging knowledge from multiple experts. Finds the distribution on an unknown object of interest \\[ f^{\circ} \equiv f^{\circ}(x)=\sum_{i=1}^{m}\left[f_{i}(x)\right]^{w_{i}}\\]
