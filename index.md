@@ -1,7 +1,7 @@
 ## About Me
-My [CV](pdf/Alec_Barber_CV.pdf). Masters and under-grad from Trinity College Dublin in Electonic and Computer engineering. Specific research focus on statistical signal processing and previously telecoms. Currently working with UTIA (Institute of Information Theory and Automation) in Prague with Prof. Anthony Quinn, working towards a conference publication.Am looking into finance and algorithmic trading for future career prospects.
+My [CV](pdf/Alec_Barber_CV.pdf). Masters and undergrad from Trinity College Dublin in Electonic and Computer engineering. Specific research focus on statistical signal processing and previously telecoms. Currently working with UTIA (Institute of Information Theory and Automation) in Prague with Prof. Anthony Quinn, working towards a conference publication. Am looking into finance and algorithmic trading for future career prospects.
 
-If you have anyquestions about this page, or want to get in contact in general, feel free to pop me an email at <barberal@tcd.ie>.
+If you have any questions about this page, or want to get in contact in general, feel free to pop me an email at <barberal@tcd.ie>.
 
 ## Projects and Research
 
