@@ -6,11 +6,11 @@
 
 ---
 
-[![Othello](images/Othello.png?raw=true)](http://example.net/)
+[![Othello](images/Othello.png?raw=true)](othello.md)
 
 ---
 
-[![Othello](images/Othello.png?raw=true)](http://example.net/)
+[![Othello](images/Othello.png?raw=true)](othello.md)
 
 ---
 
