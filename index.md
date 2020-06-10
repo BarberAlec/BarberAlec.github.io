@@ -9,7 +9,7 @@
 
 ---
 [Othello Game Playing Analysis](/pdf/sample_presentation.pdf)
-<img src="images/othello.jpg?raw=true"/>
+<img src="images/othello.jpeg?raw=true"/>
 
 ---
 [Project 3 Title](http://example.com/)
@@ -19,8 +19,9 @@
 
 ### Articles
 
-- [Project 1 Title](http://example.com/)
-<a href="http://google.com.au/" rel="some text">![Foo](http://www.google.com.au/images/nav_logo7.png)</a>
+<a href="https://medium.com/@barberal/bytedance-monte-carlo-interview-question-revisited-882ea89eca0" rel="medium article ByteDance">![Foo](https://miro.medium.com/max/1280/0*rFu2uPAlSYKoijan.jpeg)</a>
+
+
 ---
 
 
