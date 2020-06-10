@@ -24,6 +24,7 @@
 
 ## Professional Experience
 
+[![Othello](images/twc.png?raw=true)](/walton)
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">here</a>.</p>
