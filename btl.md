@@ -7,17 +7,20 @@ This research looks at the case of transfer learning in a Bayesian setting. Baye
 ## Background Techniques
 ### Distributed Opinion Pooling
 #### Logarithmic Pooling
-A mechanism for merging knowledge from multiple experts. Finds the distribution on an unknown object of interest \\[\theta \\], given a set of beliefs (distributions) \\[\mathbf{F} = \{f_1(\theta), ... , f_m(\theta) \} \\] and a set of corresponding weights \\[w_1, ... , w_m \\].
+A mechanism for merging knowledge from multiple experts. Finds the distribution on an unknown object of interest theta, given a set of beliefs (distributions) \\[ \mathbf{F} = \{f_1(\theta), ... , f_m(\theta) \} \\] and a set of corresponding weights \\[w_1, ... , w_m \\].
 
 \\[ f^{\circ} \equiv f^{\circ}(\theta)=\sum_{i=1}^{m}\left[f_{i}(\theta)\right]^{w_{i}}\\]
 
 It is KLD (Kullback-Leibler divergence) optimial as follows:
 
-\\[f^{\circ} \equiv \arg \min _{f \in F} \sum_{i=1}^{m} w_{i} D\left[f \| f_{i}\right] \\]
+\\[ f^{\circ} \equiv \arg \min _{f \in F} \sum_{i=1}^{m} w_{i} D\left[f \| f_{i}\right] \\]
 
 I.e. it finds the distribution which is closest, in a KLD sense, to the sum of the weighted KLDs with each distribution.
 
 #### Linear Pooling
 Interstingly, if we inverse the KLD function above as shown below, we can find the new optimial combination is linear pooling.
 
-\\[f^{\circ} \equiv \arg \min _{f \in F} \sum_{i=1}^{m} w_{i} D\left[f_{i} \|f \right] \\]
+\\[ f^{\circ} \equiv \arg \min _{f \in F} \sum_{i=1}^{m} w_{i} D\left[f_{i} \|f \right] \\]
+
+
+## Our Contribution 
