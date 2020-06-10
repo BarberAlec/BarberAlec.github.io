@@ -1,5 +1,5 @@
 ## About Me
-My ![CV](pdf/Alec_Barber_CV.pdf).
+My [CV](pdf/Alec_Barber_CV.pdf).
 
 ## Projects and Research
 
