@@ -1,8 +1,8 @@
-## Projects of Interest
+## College Projects
 
 ---
 
-### Category Name 1 
+<!--### Category Name 1 -->
 
 [Project 1 Title](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
@@ -17,14 +17,10 @@
 
 ---
 
-### Category Name 2
+### Articles
 
 - [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
-
+<a href="http://google.com.au/" rel="some text">![Foo](http://www.google.com.au/images/nav_logo7.png)</a>
 ---
 
 
