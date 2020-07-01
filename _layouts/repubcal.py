@@ -642,6 +642,7 @@ if __name__ == "__main__":
     thing = "{:%rF}".format(d.today())
     print(thing)
     print(int_to_roman(1))
+    print("{:%rI}".format(d.today()))
 
 
     '''
