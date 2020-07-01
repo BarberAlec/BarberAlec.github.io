@@ -35,7 +35,7 @@
         {% endif %}
         <p class="view"><a href="https://en.wikipedia.org/wiki/Special:Random">Random Wiki Page</a></p>
         <p class="view"><b id="republic_date"></b></p>
-        <a href='https://en.wikipedia.org/wiki/French_Republican_calendar'><img href='' alt='French Republican Calender' id='rep_image'></a>
+        <a href='https://en.wikipedia.org/wiki/French_Republican_calendar'><img href='' alt='French Republican Calendar' id='rep_image'></a>
         {% if site.show_downloads %}
         <ul class="downloads">
           <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
@@ -710,7 +710,7 @@
       link.href = "{:%rF}".format(d.today())
 
       document['republic_date'] <= link
-      document['rep_image'].attrs['href'] = "{:%rI}".format(d.today())
+      document['republic_date'] <= html.IMG(src="{:%rI}".format(d.today()), height=50)
 
       
 
