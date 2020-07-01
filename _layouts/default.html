@@ -34,7 +34,7 @@
         <p class="view"><a href="{{ site.github.owner_url }}">GitHub Profile</a></p>
         {% endif %}
         <p class="view"><a href="https://en.wikipedia.org/wiki/Special:Random">Random Wiki Page</a></p>
-        <p class="view"><a id="republic_date"></a></p>
+        <p class="view"><b id="republic_date"></b></p>
         {% if site.show_downloads %}
         <ul class="downloads">
           <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
@@ -68,7 +68,7 @@
     {% endif %}
     
     <script type="text/python">
-      from browser import document
+      from browser import document,html
       import datetime as dt
 
       WIKI_BASE_URL = "https://fr.wikipedia.org/wiki/"
@@ -706,7 +706,11 @@
       d = RDate
       out = "Bonjour Citoyen, aujourd'hui nous somme le {:%rA %rd %rB %rY}".format(d.today())
       
-      document['republic_date'] <= out
+      link = html.A()
+      link <= html.B(out)
+      link.href = 'http://example.com'
+
+      document['republic_date'] <= link
     </script>
     <script type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
