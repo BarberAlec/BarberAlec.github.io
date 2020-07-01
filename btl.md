@@ -22,5 +22,7 @@ Interstingly, if we inverse the KLD function above as shown below, we can find t
 
 \\[ f^{\circ} \equiv \arg \min _{f \in F} \sum_{i=1}^{m} w_{i} D\left[f_{i} \|f \right] \\]
 
+### Fully Probabilistic Design
+
 
 ## Our Contribution 
