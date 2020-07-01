@@ -704,15 +704,15 @@
               return str(self)
       
       d = RDate
-      out = "Bonjour Citoyen, aujourd'hui nous somme le {:%rA %rd %rB %rY}".format(d.today())
+      out = "BBonjour Citoyen, aujourd'hui nous somme le {:%rA %rd %rB %rY}".format(d.today())
       
       link = html.A()
       link <= html.B(out)
       link.href = "{:%rF}".format(d.today())
 
       image = html.maketag('img')
-      image.src = "{:%rI}".format(d.today())
-      image.alt = 'Todays Republican Image'
+      image['src'] = "{:%rI}".format(d.today())
+      image['alt'] = 'Todays Republican Image'
 
       document['republic_date'] <= link
       document['republic_date'] <= image
