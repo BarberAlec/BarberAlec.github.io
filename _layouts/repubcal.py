@@ -472,7 +472,8 @@ def annee_de_la_revolution(date):
     lasteq = lasteq.date()
     print(f"neq_dt:{neq_dt}, lasteq:{lasteq}, FRENCH_REVOLUTIONARY_EPOCH:{FRENCH_REVOLUTIONARY_EPOCH}, TROPICAL_YEAR: {TROPICAL_YEAR}")
     
-    year = ((lasteq.year - FRENCH_REVOLUTIONARY_EPOCH.year) / TROPICAL_YEAR) + 1
+    year = (lasteq.year - FRENCH_REVOLUTIONARY_EPOCH.year) + 1
+    print(f"year:{year}")
     return (int(year), lasteq)
 
 
@@ -640,6 +641,7 @@ if __name__ == "__main__":
     print(out)
     thing = "{:%rF}".format(d.today())
     print(thing)
+    print(int_to_roman(1))
 
 
     '''

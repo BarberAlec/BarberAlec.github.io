@@ -540,10 +540,8 @@
           if neq_dt.year == date.year and neq_dt.month == date.month and neq_dt.day == date.day:
               # the autumn equinox is the day we ask for (but after 00:00), so the lasteq is the current day
               lasteq = nexteq
-          lasteq = lasteq.date()
-          print(f"neq_dt:{neq_dt}, lasteq:{lasteq}, FRENCH_REVOLUTIONARY_EPOCH:{FRENCH_REVOLUTIONARY_EPOCH}, TROPICAL_YEAR: {TROPICAL_YEAR}")
-          
-          year = ((lasteq.year - FRENCH_REVOLUTIONARY_EPOCH.year) / TROPICAL_YEAR) + 1
+          lasteq = lasteq.date()          
+          year = (lasteq.year - FRENCH_REVOLUTIONARY_EPOCH.year) + 1
           return (int(year), lasteq)
 
 
