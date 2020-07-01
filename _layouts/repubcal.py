@@ -647,4 +647,9 @@ if __name__ == "__main__":
             
             d = RDate
             out = "Bonjour Citoyen, aujourd'hui nous somme le {:%rA %rd %rB %rY}".format(d.today())
+
+            <!-- document['republic_date'] <= image -->
+            <!-- image = html.maketag('img')
+      image['src'] = "{:%rI}".format(d.today())
+      image['alt'] = 'Todays Republican Image' -->
     '''
