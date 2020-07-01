@@ -11,7 +11,6 @@ Provide an extension of datetime to manage revolutionnary date
 
 from __future__ import print_function
 import datetime
-import ephem
 
 WIKI_BASE_URL = "https://fr.wikipedia.org/wiki/"
 TROPICAL_YEAR = 365.24219878
@@ -1121,23 +1120,7 @@ date = Date
 angle = Angle
 LongLatCoordinate = LonLatCoordinate
 
-# Catalog boostraps.  Each of these functions imports a catalog
-# module, then replaces itself with the function of the same name that
-# lives inside of the catalog.
 
-def star(name, *args, **kwargs):
-    """Load the stars database and return a star."""
-    global star
-    import ephem.stars
-    star = ephem.stars.star
-    return star(name, *args, **kwargs)
-
-def city(name):
-    """Load the cities database and return a city."""
-    global city
-    import ephem.cities
-    city = ephem.cities.city
-    return city(name)
 
 def annee_de_la_revolution(date):
     """
@@ -1158,7 +1141,7 @@ def annee_de_la_revolution(date):
         #the autumn equinox is the day we ask for (but after 00:00), so the lasteq is the current day
         lasteq = nexteq
 
-    year = ((lasteq - ephem.Date(FRENCH_REVOLUTIONARY_EPOCH)) / TROPICAL_YEAR) + 1
+    year = ((lasteq - Date(FRENCH_REVOLUTIONARY_EPOCH)) / TROPICAL_YEAR) + 1
     return (int(year), lasteq.datetime().date())
 
 def d_to_french_revolutionary(date):
