@@ -1,14 +1,3 @@
-#!/usr/bin/env python
-# This Python file uses the following encoding: utf-8
-"""
-Provide an extension of datetime to manage revolutionnary date
-"""
-
-# remove some warning
-# pylint: disable=line-too-long
-
-
-
 from __future__ import print_function
 import datetime
 
@@ -555,14 +544,6 @@ def previous_vernal_equinox(date):
 def next_vernal_equinox(date):
     """Return the date of the next vernal equinox."""
     return holiday(date, twopi, 0)
-
-def previous_summer_solstice(date):
-    """Return the date of the previous summer solstice."""
-    return holiday(date, -twopi, pi + halfpi)
-
-def next_summer_solstice(date):
-    """Return the date of the next summer solstice."""
-    return holiday(date, twopi, pi + halfpi)
 
 def previous_autumnal_equinox(date):
     """Return the date of the previous autumnal equinox."""
@@ -1344,5 +1325,9 @@ def my_display(argv):
     print("")
 
 if __name__ == "__main__":
-    import sys
-    my_display(sys.argv)
+    # import sys
+    # my_display(sys.argv)
+    d = RDate
+    out = "Bonjour Citoyen, aujourd'hui nous somme le {:%rA %rd %rB %rY}".format(d.today())
+    print(out)
+
