@@ -1,9 +1,8 @@
-from datetime import datetime as _datetime
-import datetime
+import datetime as dt
 
 WIKI_BASE_URL = "https://fr.wikipedia.org/wiki/"
 TROPICAL_YEAR = 365.24219878
-FRENCH_REVOLUTIONARY_EPOCH = datetime.date(1792, 9, 22)
+FRENCH_REVOLUTIONARY_EPOCH = dt.datetime(1792, 9, 22)
 
 REV_DAY_NAMES = ['Primidi', 'Duodi', 'Tridi', 'Quartidi', 'Quintidi', 'Sextidi', 'Septidi',
                  'Octidi', 'Nonidi', 'Décadi']
@@ -435,16 +434,16 @@ eqi = {2019:23,
 
 
 def next_autumn_equinox(date):
-    curr_eqi = _datetime(date.year,9,eqi[date.year])
+    curr_eqi = dt.datetime(date.year,9,eqi[date.year])
     if date>curr_eqi:
-        return _datetime(date.year+1,9,eqi[date.year+1])
+        return dt.datetime(date.year+1,9,eqi[date.year+1])
     else:
         return curr_eqi
 
 def previous_autumnal_equinox(date):
-    curr_eqi = _datetime(date.year,9,eqi[date.year])
+    curr_eqi = dt.datetime(date.year,9,eqi[date.year])
     if date<curr_eqi:
-        return _datetime(date.year-1,9,eqi[date.year-1])
+        return dt.datetime(date.year-1,9,eqi[date.year-1])
     else:
         return curr_eqi
 
@@ -496,12 +495,12 @@ def d_to_french_revolutionary(date):
     return rdate
 
 
-class RDate(datetime.date):
+class RDate(dt.date):
     """
     Revolutionnary datetime.date
     """
     def __new__(cls, year, month, day):
-        return datetime.date.__new__(cls, year, month, day)
+        return dt.date.__new__(cls, year, month, day)
 
     def revo(self):
         """
