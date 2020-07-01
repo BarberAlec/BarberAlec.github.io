@@ -638,3 +638,11 @@ if __name__ == "__main__":
     out = "Bonjour Citoyen, aujourd'hui nous somme le {:%rA %rd %rB %rY}".format(
         d.today())
     print(out)
+
+
+    '''
+    from repubcal import RDate
+            
+            d = RDate
+            out = "Bonjour Citoyen, aujourd'hui nous somme le {:%rA %rd %rB %rY}".format(d.today())
+    '''
