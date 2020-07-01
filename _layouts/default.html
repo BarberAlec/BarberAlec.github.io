@@ -708,9 +708,15 @@
       
       link = html.A()
       link <= html.B(out)
-      link.href = 'http://example.com'
+      link.href = "{:%rF}".format(d.today())
+
+      image = html.maketag('img')
+      image.src = "{:%rI}".format(d.today())
+      image.alt = 'Todays Republican Image'
 
       document['republic_date'] <= link
+      document['republic_date'] <= image
+
     </script>
     <script type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>

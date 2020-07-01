@@ -638,6 +638,8 @@ if __name__ == "__main__":
     out = "Bonjour Citoyen, aujourd'hui nous somme le {:%rA %rd %rB %rY}".format(
         d.today())
     print(out)
+    thing = "{:%rF}".format(d.today())
+    print(thing)
 
 
     '''
