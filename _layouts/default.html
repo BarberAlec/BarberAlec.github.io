@@ -35,6 +35,7 @@
         {% endif %}
         <p class="view"><a href="https://en.wikipedia.org/wiki/Special:Random">Random Wiki Page</a></p>
         <p class="view"><b id="republic_date"></b></p>
+        <img href='' alt='todays image' id='rep_image'>
         {% if site.show_downloads %}
         <ul class="downloads">
           <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
@@ -702,13 +703,15 @@
               return str(self)
       
       d = RDate
-      out = "Bonjour Citoyen, aujourd'hui nous somme le {:%rA %rd %rB %rY}".format(d.today())
+      out = "Bvonjour Citoyen, aujourd'hui nous somme le {:%rA %rd %rB %rY}".format(d.today())
       
       link = html.A()
       link <= html.B(out)
       link.href = "{:%rF}".format(d.today())
 
       document['republic_date'] <= link
+      document['rep_image'].attrs[name] = "{:%rI}".format(d.today())
+
       
 
     </script>
