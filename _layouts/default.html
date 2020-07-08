@@ -34,7 +34,8 @@
         <p class="view"><ins><a href="{{ site.github.owner_url }}">GitHub Profile</a></ins></p>
         {% endif %}
         <!-- <p class="view"><a href="https://en.wikipedia.org/wiki/Special:Random">Random Wiki Page</a></p> -->
-        <p class="view"><b id="republic_date"></b></p>
+        <!-- <p class="view"><b id="republic_date"></b></p> -->
+        <p class="view" id="republic_date"></p>
         {% if site.show_downloads %}
         <ul class="downloads">
           <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
@@ -699,7 +700,8 @@
       out = "{:%rA %rd %rB %rY}".format(d.today())
 
       link = html.A()
-      link <= 'Republican Calendar Date:<br>'
+      link <= 'Republican Calendar Date:'
+      link <= html.BR()
       link <= html.B(out)
       link.href = 'https://en.wikipedia.org/wiki/French_Republican_calendar'
 
