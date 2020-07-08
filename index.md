@@ -1,7 +1,9 @@
 ## About Me
 Keen interest in Bayesian methods, History and Software Development.
 
-Masters and undergrad from Trinity College Dublin in Electonic and Computer engineering. Specific research focus on statistical signal processing and previously telecoms. Currently working with UTIA (Institute of Information Theory and Automation) in Prague with Prof. Anthony Quinn, working towards a conference publication. Am looking into finance and algorithmic trading for future career prospects.
+Masters and undergrad from Trinity College Dublin in Electonic and Computer engineering. Specific research focus on statistical signal processing and previously telecoms. Currently working with UTIA (Institute of Information Theory and Automation) in Prague with Prof. Anthony Quinn, working towards a conference publication.
+
+I am targeting a career in either a financial algorithmic trading role or a developer/researcher of AI applications and tools.
 
 If you have any questions about this page, or want to get in contact in general, feel free to pop me an email at <barberal@tcd.ie>.
 
