@@ -696,9 +696,10 @@
               return str(self)
       
       d = RDate
-      out = "Republican Calendar Date:\n{:%rA %rd %rB %rY}".format(d.today())
-      
+      out = "{:%rA %rd %rB %rY}".format(d.today())
+
       link = html.A()
+      link <= 'Republican Calendar Date:'
       link <= html.B(out)
       link.href = 'https://en.wikipedia.org/wiki/French_Republican_calendar'
 
