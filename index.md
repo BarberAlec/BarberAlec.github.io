@@ -7,6 +7,7 @@ I am targeting a career in either a financial algorithmic trading role or a deve
 
 If you have any questions about this page, or want to get in contact in general, feel free to pop me an email at <barberal@tcd.ie>.
 
+Note: This website is still somewhat under construction, so not all pages have content yet :p.
 ## Projects and Research
 
 [![BTL](images/btl.png?raw=true)](/btl)
