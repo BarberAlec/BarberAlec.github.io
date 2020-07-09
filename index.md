@@ -10,9 +10,7 @@ If you have any questions about this page, or want to get in contact in general,
 Note: This website is still somewhat under construction, so not all pages have content yet :p.
 ## Projects and Research
 
-[![BTL](images/btl.png?raw=true)](/btl)
-
-[![Othello](images/Othello.png?raw=true)](/othello)
+[![BTL](images/btl.png?raw=true)](/btl) [![Othello](images/Othello.png?raw=true)](/othello)
 
 ---
 
