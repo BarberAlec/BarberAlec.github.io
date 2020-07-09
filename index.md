@@ -10,21 +10,21 @@ If you have any questions about this page, or want to get in contact in general,
 Note: This website is still somewhat under construction, so not all pages have content yet :p.
 ## Projects and Research
 
-[![BTL](images/btl.png?raw=true | width=300)](/btl)
+[![BTL](images/btl.png?raw=true)](/btl)
 
-[![Othello](images/Othello.png?raw=true | width=300)](/othello)
+[![Othello](images/Othello.png?raw=true)](/othello)
 
 ---
 
 ## Teaching
 
-[![TWC](images/twc.png?raw=true | width=300)](/walton)
+[![TWC](images/twc.png?raw=true)](/walton)
 
 ## Research Experience
 
-[![CONNECT](images/connect.png?raw=true | width=300)](/connect)
+[![CONNECT](images/connect.png?raw=true )](/connect)
 
-[![UTIA](images/utia.png?raw=true | width=300)](/utia)
+[![UTIA](images/utia.png?raw=true )](/utia)
 
 ---
 
